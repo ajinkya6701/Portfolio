@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz@9..40&family=Kanit:wght@300&family=Libre+Baskerville&family=Playfair+Display:wght@500&family=Prompt&family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz@9..40&family=Kanit:wght@300&family=Libre+Baskerville&family=Playfair+Display:wght@500&family=Prompt&family=Roboto+Slab:wght@200&family=Vollkorn&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.sidebar {
+    position: absolute;
+    font-family: 'Prompt', sans-serif;
+    height: 100vh;
+    background-color: #f2f2f2;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    margin: 144px auto;
+    height: 58vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devInfo h1 {
+    font-size: 3rem;
+    font-family: 'Vollkorn', serif;
+    margin-bottom: 10px;
+}
+
+.devInfo p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Vollkorn', serif;
+}
+
+.devInfo hr,
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button a {
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: 'Vollkorn', serif;
+}
+
+.button a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.devPic img {
+    height: 54vh;
+    border: 10px solid #000;
+    border-radius: 20px;
+}
+
+.contactform {
+    font-family: 'Vollkorn', serif;
+}
+.mr{
+    width: 90%;
+    margin-left: auto;
+}
+
+.contactform h1 {
+    font-family: 'Prompt', sans-serif;
+    padding: 10px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp {
+    font-size: 14px;
+    color: lightslategray;
+    margin: 0 5px;
+}
+
+.contactform div input,
+textarea {
+    width: 20vw;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.btn {
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 6px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: 'Vollkorn', serif;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.about {
+    display: flex;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.infor {
+    margin: auto;
+    width: 70vw;
+}
+
+
+.col {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.data {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+}
+
+.h3 {
+    width: 70%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.h3 h1 {
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.col p {
+    font-size: 2rem;
+    font-family: 'Vollkorn', serif;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+table {
+    max-width: 100%;
+    font-size: 2rem;
+    font-family: 'Vollkorn', serif;
+    margin: 20px 0;
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: transparent;
+    border-spacing: 0;
+}
+
+.table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.myskills{
+    margin: 0px 100px;
+}
+.myskills h1 {
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.skillcontainer {
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+    font-size: 1.5rem;
+}
+
+.html {
+    height: 10px;
+    border: 2px solid black;
+}
+
+.CSS {
+    height: 10px;
+    border: 2px solid black;
+}
+
+.Bootstrap {
+    height: 10px;
+    border: 2px solid black;
+}
+
+.JavaScript {
+    height: 10px;
+    border: 2px solid black;
+}
+
+.t5 {
+    width: 12.5%;
+    background-color: red;
+}
+
+.fifty {
+    width: 25%;
+    background-color: red;
+}
+
+.s5 {
+    width: 30%;
+    background-color: red;
+}
+
+.sidebarGo{
+    transform: translate(-240px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 108px;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 1650px) {
+    .infoContainer {
+        margin: auto;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .devInfo h1 {
+        font-size: 2rem;
+        font-family: 'Vollkorn', serif;
+        margin-bottom: 10px;
+    }
+    .devInfo p {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        font-family: 'Vollkorn', serif;
+    }
+    .button a {
+        background-color: black;
+        text-decoration: none;
+        font-size: 1rem;
+        padding: 8px;
+        color: #fff;
+        border-radius: 10px;
+        border: 1px solid #000;
+        font-family: 'Vollkorn', serif;
+    }
+    .devPic img {
+        height: 22vh;
+        border: 10px solid #000;
+        border-radius: 20px;
+    }
+    .myskills {
+        margin: 48px 20px;
+        height: 100vh;
+    }
+    .myskills h1{
+        font-size: 2rem;
+        margin: 16px;
+    }
+    .skillcontainer {
+        display: flex;
+        align-items: center;
+        margin: 10px 30px;
+        font-size: 1rem;
+    }
+    .infor {
+        margin: 20px;
+        width: 100vw;
+    }
+    .h3 h1 {
+        font-size: 2rem;
+        margin: 8px;
+    }
+    .col p {
+        font-size: 1rem;
+        font-family: 'Vollkorn', serif;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    table {
+        max-width: 100%;
+        font-size: 1rem;
+        font-family: 'Vollkorn', serif;
+        margin: 20px 0;
+        padding: 10px;
+        border-collapse: collapse;
+        background-color: transparent;
+        border-spacing: 0;
+    }
+    .contactform div input, textarea {
+        width: 50vw;
+        border-radius: 5px;
+        margin: 5px 0;
+        padding: 3px;
+    }
+    .contactform h1 {
+        font-size: 2rem;
+        font-family: 'Prompt', sans-serif;
+        margin-top: 34px;
+    }
+}
